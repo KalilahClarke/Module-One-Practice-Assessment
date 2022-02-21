@@ -6,8 +6,13 @@
  * ex: sumOfValuesOfObject({corey: 5, sam: 10, peter: 3, sparky: 9})
  * returns 27
  */
-
-
-function sumOfValuesOfObject(){}
+//COMPLETED
+function sumOfValuesOfObject(obj) {
+  let sum = 0;
+  for (let key in obj) {
+    sum += obj[key];
+  }
+  return sum;
+}
 
 module.exports = sumOfValuesOfObject;

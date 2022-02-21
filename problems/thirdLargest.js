@@ -7,6 +7,6 @@
  * returns 8
  */
 
-function thirdLargest() {}
+function thirdLargest(nums) {}
 
-module.exports = thirdLargest
+module.exports = thirdLargest;

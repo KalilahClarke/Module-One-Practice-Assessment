@@ -17,6 +17,6 @@
 ]
  */
 
-function sortPeopleByAge() {}
+function sortPeopleByAge(people) {}
 
 module.exports = sortPeopleByAge;
